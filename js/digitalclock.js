@@ -41,14 +41,20 @@ function currentTime() {
     if(evenSeconds === 0) {
         document.getElementById('colon1').style.color = "red";
         document.getElementById('colon2').style.color = "red";
-        document.getElementById('second').style.color = "black";
-        document.getElementById('minute').style.color = "black";
+        document.getElementById('second').style.color = "white";
+        document.getElementById('minute').style.color = "white";
+        document.getElementById('hour').style.color = "white";
+        document.getElementById('ampm').style.color = "white";
+        document.getElementById('day').style.color = "white";
     }
     else {
-        document.getElementById('colon1').style.color = "black";
-        document.getElementById('colon2').style.color = "black";
+        document.getElementById('colon1').style.color = "white";
+        document.getElementById('colon2').style.color = "white";
         document.getElementById('second').style.color = "red";
         document.getElementById('minute').style.color = "red";
+        document.getElementById('hour').style.color = "red";
+        document.getElementById('ampm').style.color = "red";
+        document.getElementById('day').style.color = "red";
     }
 }
 setInterval(() => {
